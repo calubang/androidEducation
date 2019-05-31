@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_ex42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="실습42"
+                android:textSize="20sp"
+                android:onClick="btClick"
+                android:background="@android:color/holo_orange_light"
+                android:layout_margin="10dp"/>
+            <Button
+                android:id="@+id/btn_calcu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="실습계산기"
+                android:textSize="20sp"
+                android:onClick="btClick"
+                android:background="@android:color/holo_blue_bright"
+                android:layout_margin="10dp"/>
+            <Button
+                android:id="@+id/btn_ex51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="실습51"
+                android:textSize="20sp"
+                android:background="@android:color/holo_red_light"
+                android:onClick="btClick"
+                android:layout_margin="10dp"/>
+            <Button
+                android:id="@+id/btn_ex24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="실습24"
+                android:textSize="20sp"
+                android:background="@android:color/holo_green_light"
+                android:onClick="btClick"
+                android:layout_margin="10dp"/>
+            <Button
+                android:id="@+id/btn_exInfl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="실습Infl"
+                android:textSize="20sp"
+                android:background="@android:color/holo_purple"
+                android:onClick="btClick"
+                android:layout_margin="10dp"/>
+            <Button
+                android:id="@+id/btn_newActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="새화면 띄우기"
+                android:textSize="20sp"
+                android:background="@android:color/white"
+                android:onClick="btClick"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:id="@+id/btn_ex52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="실습52"
+                android:textSize="20sp"
+                android:background="@android:color/white"
+                android:onClick="btClick"
+                android:layout_margin="10dp"/>
+            <Button
+                android:id="@+id/btn_movieStar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="영화 별점주기"
+                android:textSize="20sp"
+                android:background="@android:color/white"
+                android:onClick="btClick"
+                android:layout_margin="10dp"/>
+            <Button
+                android:id="@+id/btn_intent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="묵시적 intent"
+                android:textSize="20sp"
+                android:background="@android:color/white"
+                android:onClick="btClick"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:id="@+id/btn_lifeCycle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="액티비티 라이프 사이클"
+                android:textSize="20sp"
+                android:background="@android:color/white"
+                android:onClick="btClick"
+                android:layout_margin="10dp"/>
+            <Button
+                android:id="@+id/btn_loginMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="로그인화면"
+                android:textSize="20sp"
+                android:background="@android:color/white"
+                android:onClick="btClick"
+                android:layout_margin="10dp"/>
+            <Button
+                android:id="@+id/btn_callCompAc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="다른앱의 화면 띄우기"
+                android:textSize="20sp"
+                android:background="@android:color/white"
+                android:onClick="btClick"
+                android:layout_margin="10dp"/>
+            <Button
+                android:id="@+id/btn_adapterAc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ListView 테스트"
+                android:textSize="20sp"
+                android:background="@android:color/white"
+                android:onClick="btClick"
+                android:layout_margin="10dp"/>
+            <Button
+                android:id="@+id/btn_customListAc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Custom List View 테스트"
+                android:textSize="20sp"
+                android:background="@android:color/white"
+                android:onClick="btClick"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

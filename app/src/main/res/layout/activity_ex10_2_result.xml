@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Ex10_2ResultActivity">
+
+    <TextView
+        android:id="@+id/tv_movieName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:background="@android:color/holo_orange_light"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:text="영화 이름" />
+
+    <TextView
+        android:id="@+id/tv_movieScoreInfo"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="별점 xx 점을 선택하셨습니다."
+        android:textSize="20sp"
+        android:background="@android:color/holo_red_light"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:text="닫혀라"
+        android:textSize="50sp"
+        android:background="@android:color/holo_blue_bright"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="10dp"/>
+</LinearLayout>

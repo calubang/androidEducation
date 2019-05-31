@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">나의 어플리케이션</string>
+    <string name="welcome">안드로이드 이지~ 이지~</string>
+    <string name="btn1msg">클릭하세요~</string>
+    <string name="textViewDefalut">여기는 텍스트뷰입니다</string>
+    <string name="editTextDefault">여기는 에디트텍스트입니다</string>
+    <string name="buttonDefault">버튼</string>
+
+</resources>

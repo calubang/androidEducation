@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Ex10_2Activity">
+
+    <TextView
+        android:id="@+id/tv_movieName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="고질라 : 킹 오브 몬스터"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/movie"
+        android:scaleType="centerInside"/>
+
+    <RatingBar
+        android:id="@+id/rbar_movieScore"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:numStars="5"
+        android:rating="1"
+        android:stepSize="0.5"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_movieScore"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="별점주기"
+        android:background="@android:color/holo_orange_dark"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="화면닫기"
+        android:background="@android:color/holo_green_light"
+        android:textSize="20sp"/>
+</LinearLayout>

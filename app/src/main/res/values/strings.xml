@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="welcome">Android Easy~ Easy~</string>
+    <string name="btn1msg">클릭하세요~</string>
+    <string name="textViewDefalut">this is textViw</string>
+    <string name="editTextDefault">this is editText</string>
+    <string name="buttonDefault">button</string>
+</resources>

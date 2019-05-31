@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".CalculatorTest">
+
+    <EditText
+        android:id="@+id/et_input1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <EditText
+        android:id="@+id/et_input2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <Button
+        android:id="@+id/btn_plus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="더하기"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="248dp"
+        android:onClick="btnClick"
+        />
+
+    <Button
+        android:id="@+id/btn_minus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="빼기"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="185dp"
+        android:onClick="btnClick"
+        />
+
+    <Button
+        android:id="@+id/btn_multi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="곱하기"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="318dp"
+        android:onClick="btnClick"
+        />
+
+    <Button
+        android:id="@+id/btn_divi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="나누기"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="381dp"
+        android:onClick="btnClick"
+        />
+
+    <Button
+        android:id="@+id/btn_remainder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="나머지"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="440dp"
+        android:onClick="btnClick"
+        />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="bold"
+        android:text="계산결과 : " />
+
+
+</LinearLayout>
